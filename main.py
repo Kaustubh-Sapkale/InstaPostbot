@@ -118,7 +118,7 @@ def photo_caption(worksheet):
     k=1
     print("length of all values are" , len(all_value))
     for i in range(1 ,len(all_value) ):
-        print("loop started")
+        print("session started")
         # print('lats se' , k , ' ' , len(all_value[i]))
         # print(all_value[i][posted_col_num-1])
         k+=1
@@ -133,7 +133,7 @@ def photo_caption(worksheet):
                 cell = alph[posted_col_num]+str(i+1)
                 print(cell)
                 worksheet.update(cell , 0)
-        print("loop ended")
+        print("session ended")
             # print(all_value[i][posted_col_num-1])
 
 # # f = random.choice(os.listdir("./data/2004_Torun"))
